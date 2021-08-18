@@ -126,7 +126,7 @@
                         <p class="pt-8 text-sm">
                         <ul>
                             <li>English</li>
-                            <li>French</li>
+                            <li>French <span class="text-xs"><i>[Not fluent though]</i></span></li>
                         </ul>
                         </p>
                     </div>
@@ -193,8 +193,10 @@
 
 
         <!-- Pin to top right corner -->
-        <div class="absolute top-0 right-0 h-12 w-18 p-4">
-            <button class="js-change-theme focus:outline-none">🌙</button>
+        <div class="absolute top-0 right-0 h-10 w-15 p-4">
+            <button class="js-change-theme focus:outline-none">
+                <img src="https://hng.tech/img/brand-logo.png" alt="">
+            </button>
         </div>
 
     </div>

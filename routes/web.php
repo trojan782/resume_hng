@@ -19,3 +19,4 @@ Route::get('/', function () {
 })->name('cv');
 
 Route::get('/form', [FormController::class, 'form'])->name('contact');
+Route::post('/form', [FormController::class, 'contactFotm'])->name('contact.store');

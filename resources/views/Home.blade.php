@@ -58,13 +58,16 @@
             </div> --}}
                 <div class="grid grid-cols-3 gap-4 mt-4 p-2">
                     <div class="">
-                        <h3>Education</h3>
+                        <h3>About Me</h3>
                         <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
 
-                        <p class="pt-8 text-sm">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab fuga eveniet quibusdam pariatur
-                            neque rerum repudiandae, laboriosam quod dolores incidunt magnam iste eligendi deleniti
-                            dicta praesentium. Incidunt ipsam deleniti recusandae.
+                        <p class="pt-8 text-xs">
+                           I'm an enthusiastic, responsible and hard working Software Developer. Being worked for different projects helped me to adopt to
+                           the changes quickly and made me a mature team worker.
+                           I am able to work well both in a team environment as well as using own initiative.
+                           I am able to work well under pressure and adhere to strict deadlines.
+                            <br>
+                            And lastly Computer Science is my Field of Study.
                         </p>
                     </div>
 

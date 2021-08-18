@@ -101,14 +101,19 @@
                     <div class="md:w-1/3">
                        <button type="submit" class="py-3 px-6 text-white rounded-lg bg-green-400 shadow-lg block md:inline-block">Submit</button>
                     </div>
-                    <div class="md:w-2/3"></div>
+                    <div class="md:w-2/3">
+                       {{-- <button type="submit" class="py-3 px-6 text-white rounded-lg bg-green-400 shadow-lg block md:inline-block">Submit</button> --}}
+                    
+                    </div>
                 </div>
+        <a href="{{ route('cv') }}" class="bg-blue-200 p-4">Take me back 👈🏼</a>
+
             {{-- </form> --}}
         </form>
+{{-- <div class=" mx-auto  rounded-md m-10 p-6 text-center"> --}}
+    {{-- </div> --}}
     </div>
-    <div class="w-3/4 lg:w-1/2 mx-auto  rounded-md shadow-lg m-10 p-6 text-center">
-        <a href="{{ route('cv') }}">Take me back 👈🏼</a>
-    </div>
+    
 </body>
 
 </html>

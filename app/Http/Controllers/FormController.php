@@ -24,6 +24,6 @@ class FormController extends Controller
         ];
         Mail::to('davidjacobs522@gmail.com')->send(new messageSent($details));
         return back()->with('Mail_sent', 'Thank You for getting in touch with me');
-        return redirect()->back();
+        // return redirect()->back();
     }
 }

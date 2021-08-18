@@ -7,7 +7,7 @@
     <meta name="description" content="My Application Description">
     <meta name="author" content="trojancodes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="/css/app.css" rel="stylesheet">
 </head>
 
 <body class="bg-gradient-to-r from-blue-400 via-purple-600 to-blue-700">

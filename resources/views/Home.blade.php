@@ -59,30 +59,67 @@
                 <div class="grid grid-cols-3 gap-4 mt-4 p-2">
                     <div class="">
                         <h3>Education</h3>
+                        <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
+
                         <p class="pt-8 text-sm">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab fuga eveniet quibusdam pariatur neque rerum repudiandae, laboriosam quod dolores incidunt magnam iste eligendi deleniti dicta praesentium. Incidunt ipsam deleniti recusandae.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab fuga eveniet quibusdam pariatur
+                            neque rerum repudiandae, laboriosam quod dolores incidunt magnam iste eligendi deleniti
+                            dicta praesentium. Incidunt ipsam deleniti recusandae.
                         </p>
                     </div>
 
                     <div class="">
                         <h3>Work Experience</h3>
+                        <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
+
                         <p class="pt-8 text-sm">
-                        <h2>Web Developer</h2>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque cumque eius unde! Expedita numquam cum earum sit, doloremque iure cupiditate!
+                        <h2><b>Web Developer</b></h2>
+                         <li class="text-xs"><i>Chambers Wealth Management April 2020 - September 2020</i></li>
                         </p>
 
                         <p class="pt-8 text-sm">
-
+                            <h2><b>Google Developer Student Club Core Member</b></h2>
+                             <li class="text-xs"><i>Core member of DSC Landmark University September 2020 - present</i></li>
                         </p>
                     </div>
 
                     <div class="">
                         <h3>Skills</h3>
+                        <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
 
+                        <p class="pt-8 text-sm">
+                        <ul>
+                            <li><b>Javascript</b></li>
+                            <ol>
+                                <li class="text-xs">-VueJs</li>
+                            </ol>
+                            <li><b>PHP</b></li>
+                            <ol>
+                                <li class="text-xs">-Laravel</li>
+                            </ol>
+                            <li><b>Databases</b></li>
+                            <ol>
+                                <li class="text-xs">-Relational</li>
+                                <li class="text-xs">-No Relational</li>
+                            </ol>
+                        </ul>
+                        <p><b>Version Control</b></li>
+                        </p>
+                        <p><b>Problem Solver</b></li>
+                        </p>
+                        <p><b>Fast Learner</b></li>
+                        </p>
+                        <p><b>Googling</b></li>
+                        </p>
+
+
+                        </p>
                     </div>
 
                     <div class="">
                         <h3>Languages</h3>
+                        <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
+
                         <p class="pt-8 text-sm">
                         <ul>
                             <li>English</li>
@@ -92,12 +129,16 @@
                     </div>
 
                     <div class="">
-                        <h3 class=" mt-0 pt-1 text-base font-bold flex items-center justify-center lg:justify-start">Intrests</h3>
+                        <h3 class=" mt-0 pt-1 text-base font-bold flex items-center justify-center lg:justify-start">
+                            Intrests</h3>
+                        <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
+
                         <p class="pt-8 text-sm">
-                            <ul>
-                                <li>Backend Development</li>
-                                <li>Blockchain Development</li>
-                            </ul>
+                        <ol>
+                            <li>Backend Development</li>
+                            <li>Blockchain Development</li>
+                            <li>Cloud Computing</li>
+                        </ol>
                         </p>
                     </div>
                 </div>

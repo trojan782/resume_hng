@@ -11,18 +11,6 @@
 </head>
 
 <body class="bg-gradient-to-r from-blue-400 via-purple-600 to-blue-700">
-
-    {{-- <div class="w-3/4 lg:w-1/2 mx-auto rounded-md bg-gray-200 shadow-lg m-20 p-10 text-center">
-
-    <h1 class="text-3xl">Jacobs David</h1>
-    <p class="text-gray-500 pb-4">Software Developer</p>
-    <p class="text-gray-700 mb-6"></p>
-    <hr>
-    <div class="grid grid-cols-1 md:grid-cols-3 grid-flow-row gap-6">
-        {{-- <div class="px-4 py-2 bg-blue-600 text-gray-100 rounded-md mr-4 hover:bg-blue-700"><a href="https://twitter.com/digitalocean">Twitter</a></div> --}}
-    {{-- <div class="px-4 py-2 bg-blue-600 text-gray-100 rounded-md mr-4 hover:bg-blue-700"><a href="https://www.linkedin.com/company/digitalocean">Contact Me</a></div> --}}
-    {{-- <div class="px-4 py-2 bg-blue-600 text-gray-100 rounded-md mr-4 hover:bg-blue-700"><a href="https://instagram.com/thedigitalocean">Instagram</a></div> --}}
-    {{-- </div> --}}
     <div class="max-w-6xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
 
         <!--Main Col-->
@@ -62,10 +50,11 @@
                         <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
 
                         <p class="pt-8 text-xs">
-                           I'm an enthusiastic, responsible and hard working Software Developer. Being worked for different projects helped me to adopt to
-                           the changes quickly and made me a mature team worker.
-                           I am able to work well both in a team environment as well as using own initiative.
-                           I am able to work well under pressure and adhere to strict deadlines.
+                            I'm an enthusiastic, responsible and hard working Software Developer. Being worked for
+                            different projects helped me to adopt to
+                            the changes quickly and made me a mature team worker.
+                            I am able to work well both in a team environment as well as using own initiative.
+                            I am able to work well under pressure and adhere to strict deadlines.
                             <br>
                             And lastly Computer Science is my Field of Study.
                         </p>
@@ -77,12 +66,12 @@
 
                         <p class="pt-8 text-sm">
                         <h2><b>Web Developer</b></h2>
-                         <li class="text-xs"><i>Chambers Wealth Management April 2020 - September 2020</i></li>
+                        <li class="text-xs"><i>Chambers Wealth Management April 2020 - September 2020</i></li>
                         </p>
 
                         <p class="pt-8 text-sm">
-                            <h2><b>Google Developer Student Club Core Member</b></h2>
-                             <li class="text-xs"><i>Core member of DSC Landmark University September 2020 - present</i></li>
+                        <h2><b>Google Developer Student Club Core Member</b></h2>
+                        <li class="text-xs"><i>Core member of DSC Landmark University September 2020 - present</i></li>
                         </p>
                     </div>
 
@@ -168,7 +157,8 @@
                             <path
                                 d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
                         </svg></a>
-                    <a class="link" href="https://www.linkedin.com/in/david-jacobs-497390194/" data-tippy-content="@linkedin_handle"><svg
+                    <a class="link" href="https://www.linkedin.com/in/david-jacobs-497390194/"
+                        data-tippy-content="@linkedin_handle"><svg
                             class="h-6 fill-current text-gray-600 hover:text-green-700" role="img" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <title>LinkedIn</title>

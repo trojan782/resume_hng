@@ -16,9 +16,10 @@
 
         <h1 class="text-3xl">Contact Form</h1>
         <p class="text-gray-500 pb-4">Feel free to contact me</p>
-        <form action="">
+        <form action="route{{ route('contact.store') }}" method="post" >
+            @csrf
             <!-- component -->
-            <form class="w-full max-w-lg">
+            {{-- <form class="w-full max-w-lg"> --}}
                 <div class="flex flex-wrap -mx-3 mb-6">
                     <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                         <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
@@ -61,7 +62,7 @@
                         </label>
                         <input
                             class="appearance-none block w-full bg-white-100 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                            id="email" type="email">
+                            id="subject" type="text">
 
                     </div>
                 </div>
@@ -79,15 +80,15 @@
                 </div>
                 <div class="md:flex md:items-center">
                     <div class="md:w-1/3">
-                       <button class="py-3 px-6 text-white rounded-lg bg-green-400 shadow-lg block md:inline-block">Send</button>
+                       <input type="submit" name="send" value="Submit" class="py-3 px-6 text-white rounded-lg bg-green-400 shadow-lg block md:inline-block">
                     </div>
                     <div class="md:w-2/3"></div>
                 </div>
-            </form>
+            {{-- </form> --}}
         </form>
     </div>
     <div class="w-3/4 lg:w-1/2 mx-auto  rounded-md shadow-lg m-10 p-6 text-center">
-        <a href="">Take me back 👈🏼</a>
+        <a href="{{ route('cv') }}">Take me back 👈🏼</a>
     </div>
 </body>
 

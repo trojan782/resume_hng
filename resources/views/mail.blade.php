@@ -1,13 +1,13 @@
 <h2>Hello</h2> <br><br>
 
-You have got an email from : {{ $name }} <br><br>
+You have got an email from : {{ $details['name'] }} <br><br>
 
 User details: <br><br>
 
-Name: {{ $name }} <br>
-Email: {{ $email }} <br>
-Phone: {{ $phone }} <br>
-Subject: {{ $subject }} <br>
-Message: {{ $user_query }} <br><br>
+Name: {{ $details['name'] }} <br>
+Email: {{ $details['email'] }} <br>
+Phone: {{ $details['phone'] }} <br>
+Subject: {{ $details['subject'] }} <br>
+Message: {{$details['message'] }} <br><br>
 
 Thanks

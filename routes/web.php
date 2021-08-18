@@ -19,4 +19,5 @@ Route::get('/', function () {
 })->name('cv');
 
 Route::get('/form', [FormController::class, 'form'])->name('contact');
-Route::post('/form', [FormController::class, 'contactForm'])->name('contact.store');
+// Route::post('/form', [FormController::class, 'contactForm'])->name('contact.store');
+Route::post('/send_message', [FormController::class, 'contactForm'])->name('contact.send');

@@ -35,7 +35,7 @@
         @endif
         <h1 class="text-3xl">Contact Form</h1>
         <p class="text-gray-500 pb-4">Feel free to contact me</p>
-        <form action="{{ route('contact.store') }}" method="POST" >
+        <form action="{{ route('contact.send') }}" method="POST" >
             @csrf
             <!-- component -->
             {{-- <form class="w-full max-w-lg"> --}}

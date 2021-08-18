@@ -16,7 +16,7 @@
 
         <h1 class="text-3xl">Contact Form</h1>
         <p class="text-gray-500 pb-4">Feel free to contact me</p>
-        <form action="route{{ route('contact.store') }}" method="post" >
+        <form action="{{ route('contact.store') }}" method="POST" >
             @csrf
             <!-- component -->
             {{-- <form class="w-full max-w-lg"> --}}
@@ -80,7 +80,7 @@
                 </div>
                 <div class="md:flex md:items-center">
                     <div class="md:w-1/3">
-                       <input type="submit" name="send" value="Submit" class="py-3 px-6 text-white rounded-lg bg-green-400 shadow-lg block md:inline-block">
+                       <button type="submit" class="py-3 px-6 text-white rounded-lg bg-green-400 shadow-lg block md:inline-block">Submit</button>
                     </div>
                     <div class="md:w-2/3"></div>
                 </div>

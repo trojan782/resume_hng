@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Jacobs David</title>
-    <meta name="description" content="My Application Description">
+    <meta name="description" content="jacobs david">
     <meta name="author" content="trojancodes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/css/app.css" rel="stylesheet">
@@ -36,7 +36,8 @@
         <h1 class="text-3xl">Contact Form</h1>
         <p class="text-gray-500 pb-4">Feel free to contact me</p>
         <form action="{{ route('contact.send') }}" method="POST" >
-            @csrf
+            {{-- @csrf --}}
+            <meta name="csrf-token" content="{{ csrf_token() }}">
             <!-- component -->
             {{-- <form class="w-full max-w-lg"> --}}
                 <div class="flex flex-wrap -mx-3 mb-6">

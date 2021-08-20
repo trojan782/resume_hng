@@ -14,7 +14,17 @@ class FormController extends Controller
        return view('Form');
    }
 
+   //returning the success page view
+   public function succ() {
+       return view('success');
+   }
+
+   public function home() {
+       return view('Home');
+   }
+
     public function contactForm(Request $request) {
+        //getting values of the user from the form
         $details = [
             'name' => $request->name,
             'email' => $request->email,
@@ -22,8 +32,8 @@ class FormController extends Controller
             'subject' => $request->subject,
             'message' => $request->message
         ];
+        //sending the mail and the data from the form
         Mail::to('davidjacobs522@gmail.com')->send(new messageSent($details));
-        return back()->with('Mail_sent', 'Thank You for getting in touch with me');
-        // return redirect()->back();
+        return redirect('/success');
     }
 }

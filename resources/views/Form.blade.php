@@ -107,7 +107,7 @@
                     
                     </div>
                 </div>
-        <a href="{{ route('cv') }}" class="bg-blue-200 p-4">Take me back 👈🏼</a>
+        {{-- <a href="{{ route('cv') }}" class="bg-blue-200 p-4">Take me back 👈🏼</a> --}}
 
             {{-- </form> --}}
         </form>

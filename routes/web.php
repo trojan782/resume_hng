@@ -14,10 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('Home');
-})->name('cv');
-
+//routes
+Route::get('/', [FormController::class, 'home'])->name('cv');
 Route::get('/form', [FormController::class, 'form'])->name('contact');
-// Route::post('/form', [FormController::class, 'contactForm'])->name('contact.store');
+Route::get('/success', [FormController::class, 'succ']);
 Route::post('/send_message', [FormController::class, 'contactForm'])->name('contact.send');

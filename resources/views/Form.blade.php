@@ -28,7 +28,7 @@
                     </label>
                     <input
                         class="appearance-none block w-full bg-white-100 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                        id="grid-first-name" name="name" type="text" placeholder="John Doe">
+                        id="grid-first-name" name="name" type="text" placeholder="John Doe" required>
                 </div>
 
                 <div class="w-full md:w-1/2 px-3">
@@ -38,7 +38,7 @@
                     </label>
                     <input
                         class="appearance-none block w-full bg-white-100 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                        id="grid-last-name" name="phone" type="tel" placeholder="Telphone Number">
+                        id="grid-last-name" name="phone" type="tel" placeholder="Telphone Number" required>
                 </div>
             </div>
 
@@ -50,7 +50,7 @@
                     </label>
                     <input
                         class="appearance-none block w-full bg-white-100 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                        id="email" name="email" type="email">
+                        id="email" name="email" type="email" required>
                 </div>
             </div>
 
@@ -62,7 +62,7 @@
                     </label>
                     <input
                         class="appearance-none block w-full bg-white-100 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                        id="subject" name="subject" type="text">
+                        id="subject" name="subject" type="text" required>
 
                 </div>
             </div>
@@ -94,3 +94,4 @@
 </body>
 
 </html>
+

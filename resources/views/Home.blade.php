@@ -116,7 +116,7 @@
                     </div>
 
                     <div class="">
-                        <h3 class=" mt-0 pt-1 text-base font-bold flex items-center justify-center lg:justify-start">
+                        <h3 class=" mt-0 pt-1 text-base flex items-center justify-center lg:justify-start">
                             Intrests</h3>
                         <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
 
